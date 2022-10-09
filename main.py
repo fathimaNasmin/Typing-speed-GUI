@@ -21,10 +21,11 @@ class MainWindow:
         self.reset_btn.place(relx=0.35, rely=0.08)
 
         # label to display words for file
+        # TODO:Add words to entry widget
         self.words_txt = customtkinter.CTkTextbox(master=master, height=200, width=450, border_width=2,
                                                   border_color="black", text_font=('Arial', 20))
         self.words_txt.place(relx=0.04, rely=0.17)
-        self.words_txt.insert(tkinter.END, "Words\nfrom\nfile")
+        self.words_txt.insert(tkinter.END, "Words\tfrom\tfile")
 
         # Entry box to enter each words
         self.words_entry = customtkinter.CTkEntry(master=master, text_font=('Arial', 18),
