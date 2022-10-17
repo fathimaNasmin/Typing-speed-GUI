@@ -1,6 +1,5 @@
 import customtkinter
 import tkinter as tk
-from tkinter import messagebox as msg
 import random
 
 window = customtkinter.CTk()
